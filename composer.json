@@ -1,6 +1,7 @@
 {
     "require": {
         "logansua/blizzard-api-client": "^2.0",
-        "nesbot/carbon": "^1.22"
+        "nesbot/carbon": "^1.22",
+        "vlucas/phpdotenv": "^2.4"
     }
 }
