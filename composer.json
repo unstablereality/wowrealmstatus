@@ -1,0 +1,6 @@
+{
+    "require": {
+        "logansua/blizzard-api-client": "^2.0",
+        "nesbot/carbon": "^1.22"
+    }
+}
