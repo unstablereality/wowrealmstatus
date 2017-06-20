@@ -47,6 +47,7 @@ foreach ($realms as $realm) {
     // example output
     // [2017-06-20 10:40:01] Proudmoore is currently up.
     $output = "[" . $carbon::now() . "] " . $realminfo['name'] . " is currently " . ($realminfo['status']=="true" ? "up." : "down.") . PHP_EOL;
+    echo $output;
     fwrite($file,$output);
     fclose($file);
 }
